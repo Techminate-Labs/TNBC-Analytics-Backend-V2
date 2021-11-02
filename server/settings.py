@@ -1,17 +1,11 @@
 from dotenv import load_dotenv
-
 load_dotenv()
-
 import os
-
 from pathlib import Path
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-)kh*#nt9fi25iogk=8$y#7$*n=^ss67=khx!5qtul(h!%v7lxv'
@@ -21,7 +15,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 CORS_ORIGIN_ALLOW_ALL = True
-
 
 # Application definition
 
