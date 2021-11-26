@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     "corsheaders",
     # local
     'apis.apps.ApisConfig',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
